@@ -83,6 +83,7 @@ public class WeatherPage extends PageBase {
 		}
 	}
 
+	
 	/**
 	 * Select city.
 	 *
