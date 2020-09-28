@@ -5,14 +5,7 @@
     <artifactId>reporting</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>ndtvapp</artifactId>
-  <name>ndtvapp</name>
-  <description>ndtvapp</description>
-  <dependencies>
-  <dependency>
   <artifactId>weatherapi</artifactId>
-  <groupId>com.weather</groupId>
-<version>0.0.1-SNAPSHOT</version>
-  </dependency>
-  </dependencies>
+  <name>weatherapi</name>
+  <description>weatherapi</description>
 </project>

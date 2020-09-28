@@ -7,6 +7,8 @@ import org.testng.annotations.*;
 
 import com.weather.reporting.ndtvapp.common.*;
 import com.weather.reporting.ndtvapp.pages.*;
+import com.weather.reporting.weather.api.WeatherAPI;
+
 import static com.weather.reporting.ndtvapp.common.ConfigManager.*;
 
 public class NDTVValidationTest extends TestBase {
@@ -21,6 +23,8 @@ public class NDTVValidationTest extends TestBase {
 		String city = getValue("city");
 		weatherPage.selectCity(city);
 		weatherPage.extractWeatherDetails(city);
+		String url = getValue("url");
+		WeatherAPI.getWeatherDetailsOfCity(url, city);
 	}
 	
 	

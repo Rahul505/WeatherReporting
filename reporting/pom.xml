@@ -8,6 +8,7 @@
   <packaging>pom</packaging>
   <modules>
   	<module>ndtvapp</module>
+  	<module>weatherapi</module>
   </modules>
   
   <dependencies>
@@ -34,6 +35,10 @@
     <artifactId>webdrivermanager</artifactId>
     <version>3.7.1</version>
 </dependency>
-
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.3.1</version>
+</dependency>
  </dependencies>
 </project>
