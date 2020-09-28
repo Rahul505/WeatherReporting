@@ -51,7 +51,7 @@ public class WeatherPage extends PageBase {
 	 */
 	public HashMap<String, String> convertListToMap(List<String> weatherDetailsList, String seperator) {
 
-		HashMap<String, String> weatherDetails = new HashMap<>();
+		HashMap<String, String> weatherDetails = new HashMap<String, String>();
 		String key, value = "";
 		for (String item : weatherDetailsList) {
 
